@@ -36,9 +36,8 @@ $(function () {
         }
 
 
-        // var computerVisionKey = getKey() || "Copy your Subscription key here";
-        var webSvcUrl = "https://westcentralus.api.cognitive.microsoft.com/vision/v1.0/ocr";
-        //var webSvcUrl = "https://westus.api.cognitive.microsoft.com/vision/v1.0/ocr";
+        
+        var webSvcUrl = "https://westcentralus.api.cognitive.microsoft.com/vision/v2.0/ocr";
         webSvcUrl = webSvcUrl + "?language=" + language;
         $.ajax({
             type: "POST",
