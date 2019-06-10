@@ -8,7 +8,7 @@ $(function () {
 
     const missingKeyErrorMsg = `<div>No key found.<br>
         This demo will not work without a key.<br>
-        Create a script.js file with the following code:.</div>
+        Create a getkey.js file with the following code:.</div>
         <div style="color:red; padding-left: 20px;">
         var getKey = function(){<br>
             &nbsp; &nbsp; return "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";<br>
@@ -146,7 +146,9 @@ $(function () {
 
     // $("#imageUrlTextbox").val("https://tena2013.eventpoint.com/resources/documents/p/tena2013/photos/913a496b-7099-e211-ae09-001ec953730b.jpg");
     // $("#imageUrlTextbox").val("http://content.latest-hairstyles.com/wp-content/uploads/2013/07/haircuts-for-round-faces-175x125.jpg");
-    $("#imageUrlTextbox").val("http://cache3.asset-cache.net/gc/481501023-close-up-portrait-of-old-black-man-with-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=esg%2bVK6qs4oIjoYYcweKEaG2pptAYfOPpuLOWcyxTSE%3d");
+    //$("#imageUrlTextbox").val("http://cache3.asset-cache.net/gc/481501023-close-up-portrait-of-old-black-man-with-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=esg%2bVK6qs4oIjoYYcweKEaG2pptAYfOPpuLOWcyxTSE%3d");
+    $("#imageUrlTextbox").val("https://usercontent2.hubstatic.com/3988615_f260.jpg");
+	
     showImage();
     getFaceInfo();
 
