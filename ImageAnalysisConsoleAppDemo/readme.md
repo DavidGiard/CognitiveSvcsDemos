@@ -8,3 +8,4 @@ To use it, you will need to:
 2. Add an App.config file to the app and add the key to this file.
 3. Save an image named "kittens.jpg" in c:\test.
 
+You can read about this project in [this article](http://davidgiard.com/2019/07/16/PassingABinaryFileToAWebServiceFromANETApp.aspx)
