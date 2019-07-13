@@ -11,9 +11,6 @@ using System.Windows.Forms;
 using TextLib;
 using TextLib.Models;
 
-// This is the code for your desktop app.
-// Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-
 namespace RecognizeTextWin
 {
     public partial class Form1 : Form
@@ -30,7 +27,6 @@ namespace RecognizeTextWin
             LocationAddressLabel.Visible = false;
             _computerVisionKey = Utilities.GetKey();
         }
-
         private async void GetTextButton_Click(object sender, EventArgs e)
         {
             RecognizeTextResult results = await TextService.GetRecognizeTextOperationResults(_locationAddress, _computerVisionKey);
