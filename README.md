@@ -22,3 +22,4 @@ Demos are written in C# (as Console apps, UWP apps, and Windows 10 apps), client
 | Thumbnail-NodeDemo | node.js | 
 | AnalyzeImage-NodeDemo | node.js | 
 | ImageAnalysisConsoleAppDemo | C# Console App |
+| SpellCheck | JavaScript |
