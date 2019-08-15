@@ -1,10 +1,10 @@
 # Cognitive Services Demo
 
-## Sentiment Analysis
+## Bing Spell Check
 
 ### Overview
 
-This demo calls the Cognitive Services Sentiment API, passing in text and returning a score between 0 and 1, representing the sentiment of that text. A lower score represents a negative sentiment; a higher score represents a positive sentiment.
+This demo calls the Cognitive Bing Spell Check API, passing in text and returning an array of tokens that may be misspelled. 
 
 ### Setup
 
@@ -20,7 +20,7 @@ Details:
 
 You will need to install node to run this sample. You can download and install node from [here](https://nodejs.org/).
 
-#### Create a Text Analytics API key
+#### Create a Bing Spell Check API key
 
 You will need to create an API key for the v Cognitive Service. To do this, sign up for an Azure account at [azure.com](http://azure.com). You can sign up for a Free Account.
 
