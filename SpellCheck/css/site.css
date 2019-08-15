@@ -1,0 +1,60 @@
+textarea 
+{
+height: 100px;
+width: 600px;
+text-align: left;
+}
+
+button
+{
+    height: 50px;
+    width: 200px;
+    font-size: 18pt;
+}
+
+#NewTextDiv
+{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 16pt;
+    background-color: lightgray;
+    width: 500px;
+}
+
+#OutputDiv
+{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 12pt;
+    background-color: lightgray;
+    width: 500px;
+}
+
+#OutputDiv h3
+{
+    font-size: 16pt;
+    font-weight: bold;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#OutputDiv ul
+{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+h2
+{
+    font-size: 24pt;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
