@@ -26,7 +26,7 @@ You will need to create an API key for the Cognitive Service. To do this, sign u
 
 #### Create the getkey.js file
 
-To protect the API key, I did not check in the getkey.js file. You will need to create this file in the root folder. Add the following code to getkey.js
+To protect the API key, I did not check in the getkey.js file. You will need to create this file in the */Scripts* folder. Add the following code to getkey.js
 
 ```javascript
 var getKey = function () {
